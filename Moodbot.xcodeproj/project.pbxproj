@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDD00211FB92042009F688B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD00201FB92042009F688B /* AppDelegate.swift */; };
+		BBDD00231FB92042009F688B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD00221FB92042009F688B /* ViewController.swift */; };
+		BBDD00281FB92042009F688B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDD00271FB92042009F688B /* Assets.xcassets */; };
+		BBDD002B1FB92042009F688B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDD00291FB92042009F688B /* LaunchScreen.storyboard */; };
+		BBDD00331FB9219B009F688B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BBDD00321FB9219B009F688B /* Podfile */; };
+		BBDD00351FB92575009F688B /* NetworkMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD00341FB92575009F688B /* NetworkMgr.swift */; };
+		FF41917675C47D719A9D4B76 /* Pods_Moodbot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24852536FF6E336C499395DD /* Pods_Moodbot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E831E9EE3C0F423E6789992 /* Pods-Moodbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodbot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moodbot/Pods-Moodbot.release.xcconfig"; sourceTree = "<group>"; };
+		24852536FF6E336C499395DD /* Pods_Moodbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moodbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FFF8C427240F9C611AC65F /* Pods-Moodbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodbot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moodbot/Pods-Moodbot.debug.xcconfig"; sourceTree = "<group>"; };
+		BBDD001D1FB92042009F688B /* Moodbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDD00201FB92042009F688B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBDD00221FB92042009F688B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBDD00271FB92042009F688B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDD002A1FB92042009F688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDD002C1FB92042009F688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDD00321FB9219B009F688B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BBDD00341FB92575009F688B /* NetworkMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMgr.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDD001A1FB92042009F688B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF41917675C47D719A9D4B76 /* Pods_Moodbot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DAF6F0A9B7DE7353A9369B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39FFF8C427240F9C611AC65F /* Pods-Moodbot.debug.xcconfig */,
+				0E831E9EE3C0F423E6789992 /* Pods-Moodbot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94E46107685D607CFDC5356A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24852536FF6E336C499395DD /* Pods_Moodbot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBDD00141FB92042009F688B = {
+			isa = PBXGroup;
+			children = (
+				BBDD00341FB92575009F688B /* NetworkMgr.swift */,
+				BBDD00321FB9219B009F688B /* Podfile */,
+				BBDD001F1FB92042009F688B /* Moodbot */,
+				BBDD001E1FB92042009F688B /* Products */,
+				1DAF6F0A9B7DE7353A9369B4 /* Pods */,
+				94E46107685D607CFDC5356A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDD001E1FB92042009F688B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDD001D1FB92042009F688B /* Moodbot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDD001F1FB92042009F688B /* Moodbot */ = {
+			isa = PBXGroup;
+			children = (
+				BBDD00201FB92042009F688B /* AppDelegate.swift */,
+				BBDD00221FB92042009F688B /* ViewController.swift */,
+				BBDD00271FB92042009F688B /* Assets.xcassets */,
+				BBDD00291FB92042009F688B /* LaunchScreen.storyboard */,
+				BBDD002C1FB92042009F688B /* Info.plist */,
+			);
+			path = Moodbot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDD001C1FB92042009F688B /* Moodbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDD002F1FB92042009F688B /* Build configuration list for PBXNativeTarget "Moodbot" */;
+			buildPhases = (
+				7423649378A4E152A92945B4 /* [CP] Check Pods Manifest.lock */,
+				BBDD00191FB92042009F688B /* Sources */,
+				BBDD001A1FB92042009F688B /* Frameworks */,
+				BBDD001B1FB92042009F688B /* Resources */,
+				61D9DFD6AE879EA3ED93AA17 /* [CP] Embed Pods Frameworks */,
+				8AD4F8B5DD93051A7EDF3A66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodbot;
+			productName = Moodbot;
+			productReference = BBDD001D1FB92042009F688B /* Moodbot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDD00151FB92042009F688B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jenni;
+				TargetAttributes = {
+					BBDD001C1FB92042009F688B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BBDD00181FB92042009F688B /* Build configuration list for PBXProject "Moodbot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDD00141FB92042009F688B;
+			productRefGroup = BBDD001E1FB92042009F688B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDD001C1FB92042009F688B /* Moodbot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDD001B1FB92042009F688B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDD00331FB9219B009F688B /* Podfile in Resources */,
+				BBDD002B1FB92042009F688B /* LaunchScreen.storyboard in Resources */,
+				BBDD00281FB92042009F688B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61D9DFD6AE879EA3ED93AA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moodbot/Pods-Moodbot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moodbot/Pods-Moodbot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7423649378A4E152A92945B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moodbot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD4F8B5DD93051A7EDF3A66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moodbot/Pods-Moodbot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDD00191FB92042009F688B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDD00231FB92042009F688B /* ViewController.swift in Sources */,
+				BBDD00211FB92042009F688B /* AppDelegate.swift in Sources */,
+				BBDD00351FB92575009F688B /* NetworkMgr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBDD00291FB92042009F688B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDD002A1FB92042009F688B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDD002D1FB92042009F688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDD002E1FB92042009F688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDD00301FB92042009F688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FFF8C427240F9C611AC65F /* Pods-Moodbot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLGUZW9726;
+				INFOPLIST_FILE = Moodbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jenniwu.Moodbot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBDD00311FB92042009F688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E831E9EE3C0F423E6789992 /* Pods-Moodbot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLGUZW9726;
+				INFOPLIST_FILE = Moodbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jenniwu.Moodbot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDD00181FB92042009F688B /* Build configuration list for PBXProject "Moodbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDD002D1FB92042009F688B /* Debug */,
+				BBDD002E1FB92042009F688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDD002F1FB92042009F688B /* Build configuration list for PBXNativeTarget "Moodbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDD00301FB92042009F688B /* Debug */,
+				BBDD00311FB92042009F688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDD00151FB92042009F688B /* Project object */;
+}
